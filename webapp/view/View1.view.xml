@@ -2,10 +2,17 @@
 	<Shell id="shell">
 		<App id="app">
 			<pages>
-				<Page id="page" title="{i18n>title}">
+				<Page id="page" title="Random Dog">
 					<content>
-						
+						<Image width="100%" id="container"/>
 					</content>
+					<footer>
+						<Bar>
+							<contentRight>
+								<Button text="Get Dog" type="Emphasized" press="onGetRandomDog"/>
+							</contentRight>
+						</Bar>
+					</footer>
 				</Page>
 			</pages>
 		</App>
