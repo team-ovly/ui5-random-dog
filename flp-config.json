@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "ovly.random-dog",
+        "description": "Imagens e vídeos de cachorros aleatórios",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#Dog-Random",
+        "navigationComponentName": "ovly.random-dog",
+        "intentSemanticObject": "Dog",
+        "intentAction": "Random",
+        "html5ApplicationName": "randomdog",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "535fba67-df45-47af-ae4b-cc29d16d3fc4"
+        ],
+        "contentPackages": [
+            "972305f1-ca5a-4ea1-a99a-d4116bd552de"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Random Dog",
+        "subtitle": "Images and Videos",
+        "searchKeywords": "Random Dog,Images and Videos",
+        "displayIconUrl": "sap-icon://question-mark",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
